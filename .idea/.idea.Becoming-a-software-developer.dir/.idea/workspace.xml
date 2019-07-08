@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af65e24-3890-405c-9c25-15f51346fbc2" name="Default Changelist" comment="" />
+    <list default="true" id="2b52789e-32b8-4334-9eb3-e0bfae18c855" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,29 +11,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/.idea.Becoming-a-software-developer.dir/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/.idea.Becoming-a-software-developer.dir/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/.idea.Becoming-a-software-developer.dir/.idea/indexLayout.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="54" />
     <option name="y" value="43" />
     <option name="width" value="1376" />
     <option name="height" value="837" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="FileSystemExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Becoming-a-software-developer" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -60,17 +60,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9af65e24-3890-405c-9c25-15f51346fbc2" name="Default Changelist" comment="" />
-      <created>1562612823111</created>
+      <changelist id="2b52789e-32b8-4334-9eb3-e0bfae18c855" name="Default Changelist" comment="" />
+      <created>1562614709052</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562612823111</updated>
-      <workItem from="1562612825751" duration="108000" />
+      <updated>1562614709052</updated>
+      <workItem from="1562614711752" duration="129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108000" />
+    <option name="totallyTimeSpent" value="129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -91,9 +91,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32885906" />
       <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Performance Profiler" />
