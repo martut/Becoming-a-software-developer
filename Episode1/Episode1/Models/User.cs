@@ -1,10 +1,13 @@
 using System;
+using System.Collections.Generic;
 using System.Reflection.PortableExecutable;
 
 namespace Episode1.Models
 {
     public class User
     {
+        
+        private ISet<Order> _orders = new HashSet<Order>();
         public string Email { get; private set; }
         public string Password { get; private set; }
         public string FirstName { get; set; }
@@ -14,6 +17,10 @@ namespace Episode1.Models
         public DateTime UpdatedAt { get; set; }
 
         public decimal Funds { get; private set; }
+        public IEnumerable<Order> Orders
+        {
+            get { return _orders; }
+        }
         public User(string email, string password)
         {
             SetEmail(email);

@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="385fef2a-0cbc-458d-afc4-1deb08927d78" name="Default Changelist" comment="" />
+    <list default="true" id="385fef2a-0cbc-458d-afc4-1deb08927d78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BecomingSoftwareDev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BecomingSoftwareDev/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -35,11 +40,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BecomingSoftwareDev" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BecomingSoftwareDev" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BecomingSoftwareDev" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562612933388</updated>
       <workItem from="1562612934662" duration="1673000" />
+      <workItem from="1562698204521" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1562613102123</created>
@@ -117,7 +137,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1673000" />
+    <option name="totallyTimeSpent" value="1896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -131,20 +151,11 @@
   <component name="ToolWindowManager">
     <frame x="54" y="43" width="1376" height="837" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25337332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49850076" weight="0.32885906" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49925038" visible="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50074965" side_tool="true" visible="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -152,19 +163,28 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49785408" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49775112" visible="true" weight="0.32751676" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5022489" side_tool="true" visible="true" weight="0.32751676" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -191,6 +211,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
@@ -205,5 +239,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Episode1/.idea/.idea.Episode1/.idea/contentModel.xml" />
+    <entry file="file://$PROJECT_DIR$/../Episode1/.idea/.idea.Episode1/riderModule.iml" />
+    <entry file="file://$PROJECT_DIR$/../Episode1/.idea/.idea.Episode1/.idea/modules.xml" />
   </component>
 </project>
