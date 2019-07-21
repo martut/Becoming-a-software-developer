@@ -132,6 +132,15 @@ namespace Episode1.Models
         
     }
 
+    public class StatusEventArgs : EventArgs
+    {
+        public string Status { get; }
+
+        public StatusEventArgs(string status)
+        {
+            Status = status;
+        }
+    }
 
     public class Events
     {
@@ -139,14 +148,14 @@ namespace Episode1.Models
 
         public event UpdateStatus StatusUpdated;
 
-        public EventHandler StatusUpdatedAgain;
+        public EventHandler<StatusEventArgs> StatusUpdatedAgain;
         
         public void StartUpdateingStatus()
         {
             while (true)
             {
                 var message = $"status, ticks {DateTime.UtcNow.Ticks}";
-                StatusUpdated?.Invoke(message);
+                StatusUpdatedAgain?.Invoke(this, new StatusEventArgs(message));
                 Thread.Sleep(500);
             }
         }
@@ -157,7 +166,10 @@ namespace Episode1.Models
         public void Test()
         {
             var events = new Events();
-            events.StatusUpdated += DisplayStatus;
+            events.StatusUpdatedAgain += (sender, eventArgs) =>
+            {
+                Console.WriteLine( eventArgs.Status);
+            };
             events.StartUpdateingStatus();
                     
             
