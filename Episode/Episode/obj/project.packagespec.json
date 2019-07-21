@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/martut/RiderProjects/Becoming-a-software-developer/Episode1/Episode1/Episode1.csproj",
-    "projectName": "Episode1",
-    "projectPath": "/Users/martut/RiderProjects/Becoming-a-software-developer/Episode1/Episode1/Episode1.csproj",
-    "outputPath": "/Users/martut/RiderProjects/Becoming-a-software-developer/Episode1/Episode1/obj/",
+    "projectUniqueName": "/Users/martut/RiderProjects/Becoming-a-software-developer/Episode/Episode/Episode.csproj",
+    "projectName": "Episode",
+    "projectPath": "/Users/martut/RiderProjects/Becoming-a-software-developer/Episode/Episode/Episode.csproj",
+    "outputPath": "/Users/martut/RiderProjects/Becoming-a-software-developer/Episode/Episode/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
