@@ -18,9 +18,20 @@ namespace Episode1
         
 //        var lambdaExpressions = new LambdaExpressions();
 //        lambdaExpressions.Test();
+//
+//            var eventSandBox = new EventSandBox();
+//            eventSandBox.Test();
 
-            var eventSandBox = new EventSandBox();
-            eventSandBox.Test();
+            var test = "abc";
+            if (test.NotEmpty())
+            {
+                Console.WriteLine("Hello");
+            }
+            
+            
+            {
+                
+            }
         }
     }
 }
