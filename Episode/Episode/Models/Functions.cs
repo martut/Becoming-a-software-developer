@@ -146,7 +146,7 @@ namespace Episode1.Models
     {
         public delegate void UpdateStatus(string status);
 
-        public event UpdateStatus StatusUpdated;
+        //public event UpdateStatus StatusUpdated;
 
         public EventHandler<StatusEventArgs> StatusUpdatedAgain;
         
