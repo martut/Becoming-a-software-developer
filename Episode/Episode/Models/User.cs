@@ -9,6 +9,7 @@ namespace Episode1.Models
         
         private ISet<Order> _orders = new HashSet<Order>();
         public string Email { get; private set; }
+        [UserPassword()]
         public string Password { get; private set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

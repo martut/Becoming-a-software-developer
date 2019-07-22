@@ -28,10 +28,11 @@ namespace Episode1
                 Console.WriteLine("Hello");
             }*/
 
-            var enumerations = new Enumerations();
-            enumerations.test();
+            /*var enumerations = new Enumerations();
+            enumerations.test();*/
 
-            
+            var reflections = new Attributes();
+            reflections.Test();
             
         }
     }
