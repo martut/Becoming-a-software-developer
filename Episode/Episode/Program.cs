@@ -31,8 +31,11 @@ namespace Episode1
             /*var enumerations = new Enumerations();
             enumerations.test();*/
 
-            var reflections = new Attributes();
-            reflections.Test();
+            /*var asynchron = new Asynchronous();
+            asynchron.Test().Wait();*/
+            
+            var paralellism = new Paralellism();
+            paralellism.Test();
             
         }
     }
